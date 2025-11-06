@@ -1,0 +1,25 @@
+{
+  "listeners": [
+    {
+      "address": "0.0.0.0",
+      "port": 8080,
+      "https": false
+    }
+  ],
+  "app": {
+    "number_of_threads": 1,
+    "enable_session": false,
+    "document_root": "./",
+    "home_page": "index.html",
+    "use_implicit_page": true,
+    "implicit_page": "index.html",
+    "upload_path": "uploads",
+    "file_types": ["html", "js", "css", "png", "jpg", "ico"],
+    "log": {
+      "use_spdlog": false,
+      "log_level": "DEBUG",
+      "display_local_time": false
+    },
+    "run_as_daemon": false
+  }
+}
