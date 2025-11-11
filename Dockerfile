@@ -37,12 +37,13 @@ WORKDIR /app
 # Копіюємо тільки потрібне
 COPY --from=builder /app/build/drogapp03 ./drogapp03
 COPY --from=builder /app/config.json ./config.json
-COPY --from=builder /app/index.html ./index.html
+# COPY --from=builder /app/index.html ./index.html
 COPY --from=builder /app/views ./views
 COPY --from=builder /app/uploads ./uploads
+COPY --from=builder /app/controllers ./controllers
 
 # Відкриваємо порт
-EXPOSE 8080
+EXPOSE 8848
 
 # Запуск
 CMD ["./drogapp03", "-c", "/app/config.json"]

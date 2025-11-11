@@ -4,11 +4,26 @@
     <ClCompile Include="C:\Portable\web_c++\drogapp03\main.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Portable\web_c++\drogapp03\build\HelloView.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Portable\web_c++\drogapp03\controllers\HelloController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Portable\web_c++\drogapp03\controllers\HelloViewController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="C:\Portable\web_c++\drogapp03\build\CMakeFiles\fd6cf97040c6b2aea95d19852a2d2ca4\HelloView.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
     <CustomBuild Include="C:\Portable\web_c++\drogapp03\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{56D7B92C-CF45-355C-A2E4-8291C270F154}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{0522A533-4825-30E5-A1CD-FDDFE2DA2186}</UniqueIdentifier>
     </Filter>
